@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(114, 110, 110);
+    margin: 0;
+    padding: 0;
+}
+
+.chessboard {
+    border: 10px solid rgb(37, 37, 37);
+    width: 375px;
+    height: 375px;
+    margin: auto;
+    margin-top: 100px;
+    box-shadow: 5px 5px 8px;
+    ;
+}
+
+.black {
+    background-color: rgb(95, 93, 93);
+    height: 75px;
+    width: 75px;
+    font-size: 50px;
+    float: left;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.white {
+    background-color: white;
+    height: 75px;
+    width: 75px;
+    font-size: 50px;
+    float: left;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
